@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+import url(https://fonts.googleapis.com/css?family=Poppins:500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.snip1547 {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 48px;
+  margin: 15px 30px;
+  outline: none;
+  padding: 0 43px 0 0;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.snip1547 span {
+  background-color: #c72544;
+  border-radius: 5px 0 0 5px;
+  padding: 10px 20px;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+.snip1547:after {
+  font-family: FontAwesome;
+  content: "\f0da";
+  background-color: #c72544;
+  position: absolute;
+  right: 0%;
+  height: 48px;
+  padding: 1px 20px;
+  top: 0;
+  border-radius: 0 5px 5px 0;
+  -webkit-transition: all 0.15s ease-in;
+  transition: all 0.15s ease-in;
+}
+
+.snip1547:hover span,
+.snip1547.hover span {
+  background-color: #ba2340;
+}
+
+.snip1547:hover:after,
+.snip1547.hover:after {
+  margin-top: -5px;
+  background-color: #da3655;
+  box-shadow: -5px 10px 20px rgba(0, 0, 0, 0.5);
+}
+body {
+	background-color: #898989; margin: 0px;
+	padding: 0px; font-size: 0.75em;
+	line-height: 1.2em; color: #333;
+}/*배경색 #898989 밖여백 0 안여백 0 글자크기 0.75em
+줄간격 1.2em 글자색 #333*/
+#wrap{
+	width: 971px; text-align: left;
+	margin: 0;margin-right: auto;margin-left: auto;
+	min-height: 780px;
+	background-image: url("../images/shadow.png");
+	background-repeat: repeat-y;
+}/*너비 : 971px 글자정렬 left 밖여백 0 
+밖오른쪽여백 auto 밖왼쪽여백 auto  최소높이 780px
+배경이미지 shadow.png 배경이미지반복 y*/
+#login{float: right;margin: 20px 64px 0 0;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 12px;word-spacing: 5px}
+/*정렬 오른쪽 밖여백 20 64 0 0  
+글자체 Arial,Helvetica,sans-serif 크기 12px 
+단어간격 5px*/
+#login a{text-decoration: none; color: #333}
+/* 하이퍼링크 밑줄 없음 글자색 #333*/
+#login a:hover{color: #F90}
+/* 하이퍼링크 hover 글자색 #F90*/
+.clear{clear: both;}/*영역구분*/
+#logo{float: left;width: 265px;
+
+		 margin: 50px 0 0 40px ;}
+/*정렬 왼쪽 너비 265px 밖여백 60px 0 0 40px*/
+header{height: 151px;margin: 0px;padding: 0px}
+/*높이 151px 밖여백 0 안여백 0*/
+nav#top_menu{width: 600px; margin: 50px 20px 0 0;
+width: 1050px;}
+/*너비 600px 밖여백 50px 20px 0 0 정렬 오른쪽*/
+
+nav#top_menu ul li{list-style:none;
+					color: white;
+					background-color: #2d2d2d;
+					float: left;
+					line-height: 30px;
+					vertical-align: middle;
+					text-align: center;}
+nav#top_menu .menuLink{text-decoration:none;
+						color: white;
+						display: block;
+						padding: 6px;
+						width: 119.5px;
+						height: 55px;
+						font-size: 12px;
+						font-weight: bold;
+						font-family: "Trebuchet MS", Dotum, Arial;}
+/*block 높이 20px 안여백 10px 밑줄 없음 글자색 #333*/
+nav#top_menu .menuLink:hover{
+	color: red;;
+	background-color: #4d4d4d;}
+	
+	
+/*배경이미지 blue.gif 배경반복 x 배경위치 아래*/
+
+/*footer부분*/
+/*글자체 seo*/
+@font-face{font-family: "seo";
+src: url("../images/segoeui.eot");
+src: local(""),
+     url("../images/segoeui.woff")format("woff"),
+     url("../images/segoeui.ttf")format("truetype");}
+footer{margin: 50px 0 0 0; height: 80px;
+background-image: url("../images/local3.png");
+background-repeat: no-repeat;
+background-position: 30px center;}
+/*밖여백 50px 0 0 0 높이 80px 배경이미지under_logo.gif
+배경반복 no-repeat 위치 40px center*/
+footer hr{width: 900px;margin: 0 0 0 20px}
+/*너비 900px 밖여백 0 0 0 20px*/
+footer #copy{font-family: seo; width: 450px;
+margin: 20px 0 0 190px; float: left;}
+/*글자체 seo 너비 450px 밖여백 20px 0 0  190px 정렬 left*/
+footer #social{width: 130px; margin: 20px 20px 0 0;
+float: right;}
+/*너비 130px 밖여백 20px 20px 0 0
+정렬 오른쪽*/
+footer #social img{margin: 0 7px}/*밖여백 0 7px*/
+
+
+
+
+
